@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active_color.active {
+    @apply text-[#ff9f43];
+  }
+}
