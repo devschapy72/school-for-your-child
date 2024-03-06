@@ -68,8 +68,8 @@ const Nav = () => {
       )}
 
       <ul
-        className="fixed lg:hidden top-16 right-0 w-full xs:w-8/12 sm:w-6/12 h-full bg-gray-50 shadow-xl duration-300 flex flex-col gap-7 text-xl font-serif font-medium justify-center items-center z-50"
-        style={{ right: menuBar ? 0 : "-100%" }}
+        className="fixed lg:hidden top-16 right-0 w-full  h-auto py-10 bg-gray-50 shadow-xl duration-300 flex flex-col gap-7 text-xl font-serif font-medium justify-center items-center z-50"
+        style={{ top: menuBar ? "62px" : "-100%" }}
       >
         <li onClick={closeBar}>
           <NavLink

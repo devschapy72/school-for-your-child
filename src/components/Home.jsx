@@ -5,6 +5,7 @@ import About from "./About";
 import Classes from "./Classes";
 import Contact from "./Contact";
 import PopularTeachers from "../popular _teachers/PopularTeachers";
+import OurClients from "../our_clients/OurClients";
 
 const Home = () => {
   return (
@@ -13,8 +14,9 @@ const Home = () => {
       <SchoolFacilities />
       <About />
       <Classes />
-      <Contact />
       <PopularTeachers />
+      <OurClients />
+      <Contact />
     </div>
   );
 };

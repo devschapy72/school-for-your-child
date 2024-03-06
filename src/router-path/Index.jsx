@@ -5,6 +5,7 @@ import About from "../components/About";
 import Classes from "../components/Classes";
 import Pages from "../components/Pages";
 import Contact from "../components/Contact";
+import ErrorPage from "../components/ErrorPage";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Route path="/classes" element={<Classes />} />
       <Route path="/pages" element={<Pages />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
 };

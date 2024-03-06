@@ -12,7 +12,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="-translate-y-10">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
